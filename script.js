@@ -1,4 +1,6 @@
 //your JS code here. If required.
+// Add event listener to the submit button
+document.getElementById("btn").addEventListener("click", showMessageAfterDelay);
 
 // Function to create a delay using a Promise
 function delayMessage(ms) {
